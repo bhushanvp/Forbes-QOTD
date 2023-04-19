@@ -14,14 +14,14 @@ I web scrapped for these quotes in their [website](https://www.forbes.com) and f
 
 
 
-### Requirements
+## Requirements
 * [Python3](https://www.python.org/downloads/)
 * [Beautifulsoup](https://pypi.org/project/beautifulsoup4/) for web scrapping.
 * [Requests](https://pypi.org/project/requests/) for sending HTTP requests.
 * [Notify-Py](https://pypi.org/project/notify-py/) for generating notifications.
 
 
-### Installation and Setup
+## Installation and Setup
 1. Download this repo in the .zip format and extract it.
 2. Open the Forbes-QOTD folder.
 3. Run the install.sh file from terminal - 
@@ -41,3 +41,17 @@ I web scrapped for these quotes in their [website](https://www.forbes.com) and f
     /usr/bin/python3 /home/$username/.forbes_qotd/forbes_qotd.py
     ```
 5. Reboot
+
+## Resources and Tweaks
+The 'resources' dir present in .forbes_qotd contains :-
+1. ***Notification Sound*** - Currently set to "Windows-XP startup sound"
+   To make any changes to it :- 
+      1. Download a .wav music
+      2. Rename it to notify.wav
+      3. Copy it to the resources dir
+      
+2. ***Notification Icon*** - Currently set as Forbes logo
+   To make any changes to it :-
+      1. Download a new icon/image (.png preferred)
+      2. Rename it to 'icon.png'
+      3. Copy it to the resources dir
