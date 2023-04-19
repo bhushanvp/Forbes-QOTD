@@ -47,7 +47,7 @@ The 'resources' dir present in .forbes_qotd contains :-
 1. ***Notification Sound*** - Currently set to "Windows-XP startup sound"
    To make any changes to it :- 
       1. Download a .wav music
-      2. Rename it to notify.wav
+      2. Rename it to 'notify.wav'
       3. Copy it to the resources dir
       
 2. ***Notification Icon*** - Currently set as Forbes logo
