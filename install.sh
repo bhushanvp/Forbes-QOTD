@@ -1,14 +1,13 @@
 username=`whoami`
 
-# sudo pip install notify-py
-# sudo pip install beautifulsoup4
-# sudo pip install requests
+sudo pip install notify-py
+sudo pip install beautifulsoup4
+sudo pip install requests
 
-# sudo mkdir /home/$username/.forbes_qotd
+sudo mkdir /home/$username/.forbes_qotd
 
-# sudo cp -r resources /home/$username/.forbes_qotd/
-# sudo cp forbes_qotd.py /home/$username/.forbes_qotd/
-
+sudo cp -r resources /home/$username/.forbes_qotd/
+sudo cp forbes_qotd.py /home/$username/.forbes_qotd/
 
 echo "Finished Installation"
 echo -e "Make sure that you have 'Python3' installed\n"
